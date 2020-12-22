@@ -44,8 +44,6 @@ class MemoryGame:
     def part2(self):
         while len(self.history) <= (30000000 - 1):
             self.next_turn()
-            if (len(self.history) % 1000000) == 0:
-                print(len(self.history))
         return self.history[30000000 - 1]
 
 
