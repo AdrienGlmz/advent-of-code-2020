@@ -96,7 +96,6 @@ if __name__ == "__main__":
     bitmask = Bitmask(input_path)
     answer1 = bitmask.part1()
     print(f"Part 1 answer is {answer1}")
-    a = get_possibilities('00000000000000000000000000000001X0XX')
     bitmask = Bitmask(input_path)
     answer2 = bitmask.part2()
     print(f"Part 2 answer is {answer2}")
